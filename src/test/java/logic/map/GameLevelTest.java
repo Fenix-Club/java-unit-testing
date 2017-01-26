@@ -9,6 +9,7 @@ public class GameLevelTest {
     @Test
     public void getN_afterCreatingMap_shouldReturnCorrectDimensions() {
         int testDimensionValue = 2;
+
         GameLevel testLevel = new GameLevel(testDimensionValue);
 
         assertEquals(testLevel.getN(), testDimensionValue);
